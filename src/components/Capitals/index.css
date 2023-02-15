@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #93c5fd;
+  height: 150vh;
+}
+
+.capital-container {
+  background-color: #f8fafc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 666px;
+}
+
+.heading {
+  color: #323f4b;
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.countries-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select-option {
+  background-color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  outline: none;
+}
+
+.option {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .option {
+    font-size: 22px;
+  }
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #1e293b;
+  padding-left: 8px;
+}
+
+.country {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding-left: 160px;
+  font-weight: bold;
+}
